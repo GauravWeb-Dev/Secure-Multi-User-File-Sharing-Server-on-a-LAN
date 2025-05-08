@@ -1,0 +1,19 @@
+# Users and Groups
+
+## Groups
+- sales
+- hr
+
+## Users
+- alice (group: sales)
+- bob (group: hr)
+
+## Commands Used
+groupadd sales
+groupadd hr
+
+useradd -m -G sales alice
+echo "alice:password123" | chpasswd
+
+useradd -m -G hr bob
+echo "bob:password123" | chpasswd
