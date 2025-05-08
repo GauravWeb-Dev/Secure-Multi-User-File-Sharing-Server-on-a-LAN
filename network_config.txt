@@ -1,0 +1,11 @@
+# Network Configuration
+
+VM Type: Internal Network (VirtualBox)
+
+Server IP: 192.168.1.100/24
+Client IP: 192.168.1.101/24
+
+Configure static IPs using `nmtui` on both machines.
+
+Test connectivity:
+From client, run: ping 192.168.1.100
