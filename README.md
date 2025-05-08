@@ -41,4 +41,8 @@ firewall-cmd --reload
 
 ---
 
+## 📄 Project Report
+You can view the full project report [here](./project_report.pdf).
+
+
 Created as part of a Linux administration lab project.
